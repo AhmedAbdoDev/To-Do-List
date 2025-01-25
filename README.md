@@ -51,7 +51,7 @@ A simple and interactive **To-Do List** application built using **React.js**. Th
 ---
 
 ## **Future Improvements**
-- [✅] Add drag-and-drop functionality to reorder tasks.
+- [x] Add drag-and-drop functionality to reorder tasks.
 - [ ] Implement filters to show completed, pending, or all tasks.
 - [ ] Integrate a backend to store tasks in a database.
 

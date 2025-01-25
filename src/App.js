@@ -1,14 +1,11 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-
 import { DndContext } from "@dnd-kit/core";
-
 import {
   SortableContext,
   verticalListSortingStrategy,
 } from "@dnd-kit/sortable";
 import SortableTaskItem from "./SortableTaskItem";
-
 function App() {
   let [lists, setLists] = useState([]);
   let [value, setValue] = useState("");
